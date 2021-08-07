@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<script src="popup.js"></script>
+<div class="divborder">
+<body style="width:317px;height:225px;">
+	<div>
+		<h1 id="ticketsuggectionIcon">AUX Switcher</h1>
+		<link rel="stylesheet" href="style.css">
+		<hr>
+		<div style='font-size:16px'>Switch to this AUX</div>
+		<img src="img/msminutes.png" alt="Ms Minutes" style="padding-left:200px;width:110px;height:110px;float:right;position:absolute;z-index: -10">
+		<select name="AuxCodeToSwitchTo" id="AuxCodeToSwitchTo" style="">
+			<option value="PUA">PUA</option>
+			<option value="Salesforce">Salesforce</option>
+			<option value="SNOW After-Call Work">SNOW After-Call Work</option>
+			<option value="Development">Development</option>
+			<option value="Fraud">Fraud</option>
+			<option value="Technical Issue">Technical Issue</option>
+			<option value="Lunch">Lunch</option>
+			<option value="Dial Out">Dial Out</option>
+			<option value="Training / Coaching">Training / Coaching</option>
+			<option value="Team Meeting">Team Meeting</option>
+			<option value="Available">Available</option>
+			<option value="Break">Break</option>
+			<option value="Offline">Offline</option>
+			<option value="Super User / TL Support">Super User / TL Support</option>
+		</select>
+		<div style='font-size:16px'>for</div>
+		<div>
+			<textarea cols="5" id="minutesCount" rows="1"></textarea>
+			<div style="width:80%; float:right; relative:absolute">
+				<div style='font-size:16px'>Minute(s)</div>
+			</div>
+			<button id="TriggerButton" style="background-color:#C00000;border:1px;border-radius:10px;width:75px;height:30px;color:white;text-align:center;font-size:15px;"><b>Trigger</b></button>
+		</div>
+		<hr>
+		<button id="BreakButton" style="background-color:#C00000;border:1px;border-radius:10px;width:150px;height:30px;color:white;text-align:center;font-size:15px;"><b>Go on Break</b></button>
+		<button id="LunchButton" style="background-color:#C00000;border:1px;border-radius:10px;width:150px;height:30px;color:white;text-align:center;font-size:15px;float:right"><b>Go on Lunch</b></button>
+		<div id='ticketInfo' style='font-size:15px'></div>
+		<h1 id='counter'></h1>
+	</div>
+</body>
+</div>

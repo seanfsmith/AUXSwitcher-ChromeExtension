@@ -1,0 +1,16 @@
+{
+    "name": "AUX Switcher",
+    "description": "This extension makes sure I dont go over on breaks/lunches",
+    "version": "1.0",
+    "author": "Sean Smith",
+    "icons": { "16": "img/msminutes.png",
+               "48": "img/msminutes.png",
+               "128": "img/msminutes.png" },
+    "browser_action": {
+      "default_popup": "popup.html"
+  },
+    "permissions": [
+        "activeTab"
+    ],
+    "manifest_version": 2
+}
